@@ -1,5 +1,3 @@
-# NOTE: `_create-python-release.yml` does not yet exist in valkyrjaio/.github
-# — author it org-side, then pin to a commit SHA.
 name: Create a New Release
 
 on:
