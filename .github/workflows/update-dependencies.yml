@@ -1,5 +1,3 @@
-# NOTE: `_update-python-dependencies.yml` does not yet exist in valkyrjaio/.github
-# — author it org-side, then pin to a commit SHA.
 name: Update Dependencies
 
 on:

@@ -1,7 +1,3 @@
-# NOTE: The `_<tool>-python.yml` reusable workflows referenced below do not yet
-# exist in valkyrjaio/.github — they must be authored org-side before CI is green.
-# They are pinned to @master until published, then pin to a commit SHA like the
-# language-agnostic checks below.
 name: CI
 
 on:
