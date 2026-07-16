@@ -1,0 +1,23 @@
+# NOTE: `_update-python-dependencies.yml` does not yet exist in valkyrjaio/.github
+# — author it org-side, then pin to a commit SHA.
+name: Update Dependencies
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-dependencies:
+    uses: valkyrjaio/.github/.github/workflows/_update-python-dependencies.yml@master
+    secrets: inherit
+    with:
+      dependencies: |
+        [
+          {"name": "Root Packages",  "directory": "."},
+          {"name": "Ruff",           "directory": ".github/ci/ruff"},
+          {"name": "mypy",           "directory": ".github/ci/mypy"},
+          {"name": "Bandit",         "directory": ".github/ci/bandit"},
+          {"name": "import-linter",  "directory": ".github/ci/importlinter"},
+          {"name": "pytest",         "directory": ".github/ci/pytest"}
+        ]

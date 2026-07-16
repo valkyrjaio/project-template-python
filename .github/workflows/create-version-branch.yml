@@ -1,0 +1,21 @@
+# NOTE: `_create-python-version-branch.yml` does not yet exist in
+# valkyrjaio/.github — author it org-side, then pin to a commit SHA.
+name: Create Major Release Version Branch
+
+on: workflow_dispatch
+
+run-name: Create new version for upcoming major release
+
+jobs:
+  create:
+    uses: valkyrjaio/.github/.github/workflows/_create-python-version-branch.yml@master
+    secrets: inherit
+    with:
+      dependencies: |
+        [
+          {"name": "Ruff",           "directory": ".github/ci/ruff"},
+          {"name": "mypy",           "directory": ".github/ci/mypy"},
+          {"name": "Bandit",         "directory": ".github/ci/bandit"},
+          {"name": "import-linter",  "directory": ".github/ci/importlinter"},
+          {"name": "pytest",         "directory": ".github/ci/pytest"}
+        ]
