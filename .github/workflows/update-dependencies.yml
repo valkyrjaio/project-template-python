@@ -7,7 +7,7 @@ on:
 
 jobs:
   update-dependencies:
-    uses: valkyrjaio/.github/.github/workflows/_update-python-dependencies.yml@master
+    uses: valkyrjaio/.github/.github/workflows/_update-python-dependencies.yml@bcbf9696bd9a7fd71abcf4d00d3420cc949c98e1
     secrets: inherit
     with:
       dependencies: |
