@@ -2,7 +2,7 @@
 name = "valkyrja-template-ci-mypy"
 version = "0.0.0"
 requires-python = ">=3.14"
-dependencies = ["mypy>=1.13"]
+dependencies = ["mypy>=2.3.0"]
 
 [tool.uv]
 # Environment-only project: install the tool, never build this directory.
