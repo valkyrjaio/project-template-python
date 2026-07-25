@@ -2,7 +2,7 @@
 name = "valkyrja-template-ci-ruff"
 version = "0.0.0"
 requires-python = ">=3.14"
-dependencies = ["ruff>=0.9"]
+dependencies = ["ruff>=0.16.0"]
 
 [tool.uv]
 # Environment-only project: install the tool, never build this directory.
