@@ -149,4 +149,4 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "mypy", specifier = ">=1.13" }]
+requires-dist = [{ name = "mypy", specifier = ">=2.3.0" }]

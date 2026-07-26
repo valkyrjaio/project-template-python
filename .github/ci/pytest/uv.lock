@@ -128,7 +128,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "coverage", specifier = ">=7.6" },
-    { name = "pytest", specifier = ">=8.3" },
-    { name = "pytest-cov", specifier = ">=6.0" },
+    { name = "coverage", specifier = ">=7.15.2" },
+    { name = "pytest", specifier = ">=9.1.1" },
+    { name = "pytest-cov", specifier = ">=7.1.0" },
 ]

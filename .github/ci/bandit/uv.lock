@@ -113,4 +113,4 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "bandit", extras = ["toml"], specifier = ">=1.8" }]
+requires-dist = [{ name = "bandit", extras = ["toml"], specifier = ">=1.9.4" }]
