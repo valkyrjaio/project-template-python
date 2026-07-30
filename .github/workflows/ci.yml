@@ -40,8 +40,9 @@ jobs:
 
   ruff:
     name: Ruff
-    uses: valkyrjaio/.github/.github/workflows/_python-ruff.yml@1243d6eb0a7b9425f22295e0097dcf70e8276322
+    uses: valkyrjaio/.github/.github/workflows/_python-ci-tool.yml@1fdc1ccfcbd2305908853fa401ee04135be8e184
     with:
+      tool: 'ruff'
       ci-directory: .github/ci/ruff
       paths: |
         ci:
@@ -57,8 +58,9 @@ jobs:
 
   mypy:
     name: mypy
-    uses: valkyrjaio/.github/.github/workflows/_python-mypy.yml@1243d6eb0a7b9425f22295e0097dcf70e8276322
+    uses: valkyrjaio/.github/.github/workflows/_python-ci-tool.yml@1fdc1ccfcbd2305908853fa401ee04135be8e184
     with:
+      tool: 'mypy'
       ci-directory: .github/ci/mypy
       paths: |
         ci:
@@ -74,8 +76,9 @@ jobs:
 
   import-linter:
     name: import-linter
-    uses: valkyrjaio/.github/.github/workflows/_python-import-linter.yml@1243d6eb0a7b9425f22295e0097dcf70e8276322
+    uses: valkyrjaio/.github/.github/workflows/_python-ci-tool.yml@1fdc1ccfcbd2305908853fa401ee04135be8e184
     with:
+      tool: 'import-linter'
       ci-directory: .github/ci/importlinter
       paths: |
         ci:
@@ -90,8 +93,9 @@ jobs:
 
   bandit:
     name: Bandit
-    uses: valkyrjaio/.github/.github/workflows/_python-bandit.yml@1243d6eb0a7b9425f22295e0097dcf70e8276322
+    uses: valkyrjaio/.github/.github/workflows/_python-ci-tool.yml@1fdc1ccfcbd2305908853fa401ee04135be8e184
     with:
+      tool: 'bandit'
       ci-directory: .github/ci/bandit
       paths: |
         ci:
