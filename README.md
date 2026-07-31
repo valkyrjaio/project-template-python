@@ -108,11 +108,11 @@ This template is open-source software licensed under the
 [uv url]: https://docs.astral.sh/uv/
 [poe url]: https://poethepoet.natn.io/
 [starter url]: https://github.com/valkyrjaio/valkyrja-starter-app-python
-[repository naming url]: https://github.com/valkyrjaio/.github/blob/master/REPOSITORY_NAMING.md
-[vocabulary url]: https://github.com/valkyrjaio/.github/blob/master/VOCABULARY.md
-[contributing url]: https://github.com/valkyrjaio/.github/blob/master/CONTRIBUTING.md
-[security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/master/SECURITY.md
-[Versioning and Release Process url]: https://github.com/valkyrjaio/.github/blob/master/VERSIONING_AND_RELEASE_PROCESS.md
+[repository naming url]: https://github.com/valkyrjaio/.github/blob/26.x/REPOSITORY_NAMING.md
+[vocabulary url]: https://github.com/valkyrjaio/.github/blob/26.x/VOCABULARY.md
+[contributing url]: https://github.com/valkyrjaio/.github/blob/26.x/CONTRIBUTING.md
+[security vulnerabilities url]: https://github.com/valkyrjaio/.github/blob/26.x/SECURITY.md
+[Versioning and Release Process url]: https://github.com/valkyrjaio/.github/blob/26.x/VERSIONING_AND_RELEASE_PROCESS.md
 [semantic versioning url]: https://semver.org/
 [MIT license url]: https://opensource.org/licenses/MIT
 [license url]: ./LICENSE.md
