@@ -135,4 +135,4 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "import-linter", specifier = ">=2.13" }]
+requires-dist = [{ name = "import-linter", specifier = ">=2.13,<3" }]
