@@ -44,7 +44,7 @@ jobs:
   # as `CI / Tools / <Tool> / …`.
   tools:
     name: Tools
-    uses: valkyrjaio/.github/.github/workflows/_python-ci-tools.yml@322c7c39a8135762be50f58831f7c0ef52d4da1c
+    uses: valkyrjaio/.github/.github/workflows/_python-ci-tools.yml@ad584d2214887800ec6efd62188eac8d1f91c4ab
     with:
       source-paths: |
         src/**/*.py
