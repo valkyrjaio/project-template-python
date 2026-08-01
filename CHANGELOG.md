@@ -1,6 +1,14 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.0...26.x)
+## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.1...26.x)
+
+## [v26.0.1](https://github.com/valkyrjaio/project-template-python/compare/v26.0.0...v26.0.1) - 2026-08-01
+
+* [Workflow] ci: Correct the Claude review trigger by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/28
+* [Workflow] refactor: Split the pull request checks out of CI by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/29
+* [Workflow] ci: Rename the version branch workflow from major to yearly by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/30
+* [Workflow] ci: Update .github workflow refs to v26.18.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/31
+* [Workflow] ci: Update .github workflow refs to v26.18.1 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/32
 
 ## [v26.0.0](https://github.com/valkyrjaio/project-template-python/compare/26.0.0...v26.0.0) - 2026-07-31
 
