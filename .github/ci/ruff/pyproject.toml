@@ -27,7 +27,9 @@ preview = true
 explicit-preview-rules = true
 
 [tool.ruff.lint.flake8-copyright]
-# The default pattern looks for "Copyright" and a year, and this header carries
-# neither. Match the identifier instead, so that a file which names the wrong
-# package fails. The identifier comes from COPYRIGHT_HEADER.md in the .github repo.
-notice-rgx = "# This file is part of the Project Template package\\."
+# Match the whole header, not the first line alone. The default pattern looks for
+# the word "Copyright" and a year, which this header carries, but it accepts any
+# text around them. A file that names the wrong package, or that keeps an older
+# header body, passes that pattern and fails this one. The header text comes from
+# COPYRIGHT_HEADER.md in the .github repo.
+notice-rgx = "# This file is part of the Project Template package\\.\n#\n# Copyright \\(c\\) 2016-present Melech Mizrachi\n#\n# Released under the MIT License\\. See LICENSE\\.md for details\\."

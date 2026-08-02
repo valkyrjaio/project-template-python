@@ -1,9 +1,8 @@
 # This file is part of the Project Template package.
 #
-# (c) Melech Mizrachi <melechmizrachi@gmail.com>
+# Copyright (c) 2016-present Melech Mizrachi
 #
-# For the full copyright and license information, please view the LICENSE
-# file that was distributed with this source code.
+# Released under the MIT License. See LICENSE.md for details.
 
 # Shared pytest configuration and fixtures for the whole test suite (the Python
 # analog of PHP's tests/bootstrap.php). Add session-wide fixtures here.
