@@ -1,6 +1,18 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.2...26.x)
+## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.3...26.x)
+
+## [v26.0.3](https://github.com/valkyrjaio/project-template-python/compare/v26.0.2...v26.0.3) - 2026-08-03
+
+* [Workflow] ci: Pass each reusable workflow the secrets it declares by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/39
+* [Copyright] ci: Add the copyright header check by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/44
+* [Workflow] ci: Update .github workflow refs to v26.22.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/45
+* [Copyright] ci: Use the seven-line header form in every Python file by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/46
+* [Workflow] ci: Pin the copyright header check to v26.22.0 by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/47
+* [Copyright] improvement: Consume valkyrja-ci-ruff for the header by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/48
+* [Workflow] ci: Update .github workflow refs to v26.23.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/49
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/51
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/52
 
 ## [v26.0.2](https://github.com/valkyrjaio/project-template-python/compare/v26.0.1...v26.0.2) - 2026-08-02
 
