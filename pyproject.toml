@@ -35,6 +35,10 @@ dev = ["poethepoet>=0.48.0"]
 # `uv run -q` silences uv's own output (venv creation, the harmless inherited
 # VIRTUAL_ENV warning) while passing each tool's output through.
 [tool.poe.tasks]
+# `valkyrja-ci-ruff` holds the header text and writes it. Ruff reports a wrong
+# header and corrects nothing, so this command is what corrects it.
+copyright-header = "uv run -q --project .github/ci/ruff valkyrja-ruff-header"
+copyright-header-check = "uv run -q --project .github/ci/ruff valkyrja-ruff-header --check"
 ruff-format = "uv run -q --project .github/ci/ruff ruff format --config .github/ci/ruff/pyproject.toml src tests"
 ruff-format-check = "uv run -q --project .github/ci/ruff ruff format --check --config .github/ci/ruff/pyproject.toml src tests"
 ruff = "uv run -q --project .github/ci/ruff ruff check --config .github/ci/ruff/pyproject.toml src tests"
@@ -51,6 +55,7 @@ env = { PYTHONPATH = "src" }
 [tool.poe.tasks.ci]
 help = "Run the full CI gate (see architecture/python/AGENTS.md)"
 sequence = [
+    { ref = "copyright-header-check" },
     { ref = "ruff-format-check" },
     { ref = "ruff" },
     { ref = "mypy" },
