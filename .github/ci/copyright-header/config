@@ -28,10 +28,4 @@ EXCLUDED=(
     # An empty placeholder that keeps an empty directory in git. The file holds
     # no content at all.
     '*.gitkeep'
-
-    # Ruff holds every Python file to the header through `CPY001`, and its
-    # `notice-rgx` lives in `.github/ci/ruff/pyproject.toml`. Python writes the
-    # header as five lines with no wrapping comment mark, which is not the
-    # seven-line form this check compares against.
-    '*.py'
 )
