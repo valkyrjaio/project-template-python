@@ -1,6 +1,17 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.3...26.x)
+## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.4...26.x)
+
+## [v26.0.4](https://github.com/valkyrjaio/project-template-python/compare/v26.0.3...v26.0.4) - 2026-08-05
+
+* [Workflow] ci: Update .github workflow refs to v26.23.1 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/53
+* [Copyright] build: Regenerate the copyright header pattern by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/50
+* [Dependency] build: Record the released version in uv.lock by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/55
+* [pytest] fix: Measure coverage by path so an unimported module counts by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/54
+* [Readme] fix: Pin the art asset links to the version branch by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/56
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/58
+* [Link] fix: Repair the architecture and versioning document links by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/57
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/59
 
 ## [v26.0.3](https://github.com/valkyrjaio/project-template-python/compare/v26.0.2...v26.0.3) - 2026-08-03
 
