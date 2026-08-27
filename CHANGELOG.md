@@ -1,6 +1,32 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.4...26.x)
+## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.5...26.x)
+
+## [v26.0.5](https://github.com/valkyrjaio/project-template-python/compare/v26.0.4...v26.0.5) - 2026-08-27
+
+* [Workflow] ci: Update .github workflow refs to v26.24.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/60
+* [pytest] docs: Condense the coverage comments to two lines each by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/61
+* [Workflow] ci: Update .github workflow refs to v26.24.1 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/62
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/63
+* [Workflow] ci: Update .github workflow refs to v26.24.2 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/64
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/65
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/66
+* [Workflow] ci: Update .github workflow refs to v26.24.3 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/67
+* [Workflow] ci: Update .github workflow refs to v26.24.4 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/68
+* [Workflow] ci: Run the checks on a pull request that targets any branch by [@MelechMizrachi](https://github.com/MelechMizrachi) in https://github.com/valkyrjaio/project-template-python/pull/69
+* [Workflow] ci: Update .github workflow refs to v26.24.5 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/70
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/71
+* [Workflow] ci: Update .github workflow refs to v26.24.6 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/72
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/73
+* [Workflow] ci: Update .github workflow refs to v26.25.0 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/74
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/75
+* [Workflow] ci: Update .github workflow refs to v26.25.1 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/76
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/77
+* [Workflow] ci: Update .github workflow refs to v26.25.2 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/78
+* [Workflow] ci: Update .github workflow refs to v26.25.3 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/79
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/80
+* [Workflow] ci: Update .github workflow refs to v26.25.4 by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/82
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/81
 
 ## [v26.0.4](https://github.com/valkyrjaio/project-template-python/compare/v26.0.3...v26.0.4) - 2026-08-05
 
