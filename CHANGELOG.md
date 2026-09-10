@@ -1,6 +1,11 @@
 # Release Notes for 26.x
 
-## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.11...26.x)
+## [Unreleased](https://github.com/valkyrjaio/project-template-python/compare/v26.0.12...26.x)
+
+## [v26.0.12](https://github.com/valkyrjaio/project-template-python/compare/v26.0.11...v26.0.12) - 2026-09-10
+
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/96
+* [Dependency] build: Update Python dependencies by [@valkyrja-volundr](https://github.com/valkyrja-volundr)[bot] in https://github.com/valkyrjaio/project-template-python/pull/97
 
 ## [v26.0.11](https://github.com/valkyrjaio/project-template-python/compare/v26.0.10...v26.0.11) - 2026-09-08
 
