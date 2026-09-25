@@ -12,5 +12,5 @@ from typing import Final
 class TemplateInfo:
     """Package version metadata, updated by the release workflow."""
 
-    VERSION: Final[str] = "26.0.15"
-    VERSION_BUILD_DATE_TIME: Final[str] = "September 17 2026 10:54:11 MST"
+    VERSION: Final[str] = "26.0.16"
+    VERSION_BUILD_DATE_TIME: Final[str] = "September 25 2026 11:33:19 MST"
