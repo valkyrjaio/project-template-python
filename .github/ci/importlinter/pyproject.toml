@@ -9,14 +9,14 @@ dependencies = ["import-linter>=2.15,<3"]
 package = false
 
 # import-linter enforces module boundaries. The root poe task sets PYTHONPATH=src
-# so `valkyrja.template` is importable. Add layered/independence contracts here as
-# the package grows — the analog of PHP's phparkitect Rules.
+# so `valkyrja.template` is importable.
 [tool.importlinter]
 root_packages = ["valkyrja.template"]
+include_external_packages = true
 
-# Example contract to copy once there are layers to enforce:
-# [[tool.importlinter.contracts]]
-# name = "Contracts must not import implementations"
-# type = "forbidden"
-# source_modules = ["valkyrja.template.contract"]
-# forbidden_modules = ["valkyrja.template.provider"]
+# Sindri is a build tool and never a runtime dependency of the template.
+[[tool.importlinter.contracts]]
+name = "The template does not import sindri"
+type = "forbidden"
+source_modules = ["valkyrja.template"]
+forbidden_modules = ["sindri"]
